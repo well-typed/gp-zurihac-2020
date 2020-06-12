@@ -1,0 +1,31 @@
+cabal-version: 3.0
+name: gp-zurihac
+version: 0.1
+author: Andres Löh <andres@well-typed.com>
+
+library
+  default-language:
+    Haskell2010
+  default-extensions:
+    AllowAmbiguousTypes
+    ConstraintKinds
+    DataKinds
+    FlexibleContexts
+    FlexibleInstances
+    GADTs
+    InstanceSigs
+    MultiParamTypeClasses
+    PolyKinds
+    RankNTypes
+    ScopedTypeVariables
+    TypeApplications
+    TypeFamilies
+    TypeOperators
+    UndecidableInstances
+    UndecidableSuperClasses
+  build-depends:
+    base
+  ghc-options:
+    -Wall -fno-show-valid-hole-fits
+  exposed-modules:
+    GP
