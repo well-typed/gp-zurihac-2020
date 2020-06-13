@@ -27,5 +27,7 @@ library
     base
   ghc-options:
     -Wall -fno-show-valid-hole-fits
+    -Wno-unticked-promoted-constructors -Wno-unused-matches
+    -Wno-unused-imports
   exposed-modules:
     GP
