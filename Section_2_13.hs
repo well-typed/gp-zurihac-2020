@@ -161,7 +161,7 @@ instance HasDatatypeInfo (Tree a) where
   conNames _ = Const "Leaf" `Cons` Const "Node" `Cons` Nil
 
 instance HasDatatypeInfo Colour where
-  conNames _ = Const "Red" `Cons` Const "Gree" `Cons` Const "Blue" `Cons` Nil
+  conNames _ = Const "Red" `Cons` Const "Green" `Cons` Const "Blue" `Cons` Nil
 
 select :: SList c xs -> (forall x . c x => f x -> g x -> h x) -> Product f xs -> Sum g xs -> Sum h xs
 select (SCons _) op (Cons fx _) (Zero gx) = Zero (op fx gx)
