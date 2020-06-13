@@ -31,3 +31,10 @@ library
     -Wno-unused-imports
   exposed-modules:
     GP
+    Section_1_4
+    Section_1_6
+    Section_2_1
+    Section_2_4
+    Section_2_5
+    Section_2_8
+    Section_2_13
